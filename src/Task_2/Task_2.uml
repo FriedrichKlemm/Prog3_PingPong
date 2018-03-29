@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Task_2</OriginalElement>
+  <nodes>
+    <node x="55.625" y="356.0">Task_2.PingPongMain</node>
+    <node x="69.125" y="277.0">Task_2.MainView</node>
+    <node x="50.27224702380953" y="168.0">Task_2.Controller.Animation</node>
+    <node x="103.625" y="89.0">Task_2.Controller.InputController</node>
+    <node x="124.25156249999999" y="0.0">Task_2.Models.Racket</node>
+    <node x="4.625" y="89.0">Task_2.Models.Ball</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Task_2.Controller.Animation" target="Task_2.Models.Ball">
+      <point x="-29.714285714285708" y="-14.5" />
+      <point x="72.55796130952382" y="148.0" />
+      <point x="63.25" y="148.0" />
+      <point x="25.125" y="14.5" />
+    </edge>
+    <edge source="Task_2.MainView" target="Task_2.Controller.Animation">
+      <point x="-25.0" y="-14.5" />
+      <point x="94.125" y="237.0" />
+      <point x="63.27224702380953" y="237.0" />
+      <point x="-39.0" y="14.5" />
+    </edge>
+    <edge source="Task_2.PingPongMain" target="Task_2.MainView">
+      <point x="31.75" y="-14.5" />
+      <point x="150.875" y="331.0" />
+      <point x="144.125" y="331.0" />
+      <point x="25.0" y="14.5" />
+    </edge>
+    <edge source="Task_2.Controller.InputController" target="Task_2.Controller.Animation">
+      <point x="0.0" y="14.5" />
+      <point x="168.125" y="148.0" />
+      <point x="146.8436755952381" y="148.0" />
+      <point x="44.57142857142857" y="-14.5" />
+    </edge>
+    <edge source="Task_2.Controller.Animation" target="Task_2.Controller.InputController">
+      <point x="14.857142857142861" y="-14.5" />
+      <point x="-51.6" y="14.5" />
+    </edge>
+    <edge source="Task_2.Models.Ball" target="Task_2.MainView">
+      <point x="-8.375" y="14.5" />
+      <point x="29.75" y="148.0" />
+      <point x="26.375" y="148.0" />
+      <point x="26.375" y="247.0" />
+      <point x="84.125" y="247.0" />
+      <point x="-35.0" y="-14.5" />
+    </edge>
+    <edge source="Task_2.Controller.InputController" target="Task_2.Models.Racket">
+      <point x="32.25" y="-14.5" />
+      <point x="200.375" y="69.0" />
+      <point x="172.66822916666666" y="69.0" />
+      <point x="6.916666666666671" y="14.5" />
+    </edge>
+    <edge source="Task_2.Controller.Animation" target="Task_2.MainView">
+      <point x="39.0" y="14.5" />
+      <point x="141.27224702380954" y="217.0" />
+      <point x="124.125" y="217.0" />
+      <point x="5.0" y="-14.5" />
+    </edge>
+    <edge source="Task_2.Models.Racket" target="Task_2.MainView">
+      <point x="34.58333333333334" y="14.5" />
+      <point x="200.33489583333335" y="49.0" />
+      <point x="253.125" y="49.0" />
+      <point x="253.125" y="257.0" />
+      <point x="164.125" y="257.0" />
+      <point x="45.0" y="-14.5" />
+    </edge>
+    <edge source="Task_2.Controller.InputController" target="Task_2.MainView">
+      <point x="51.6" y="14.5" />
+      <point x="219.725" y="148.0" />
+      <point x="211.825" y="148.0" />
+      <point x="211.825" y="237.0" />
+      <point x="144.125" y="237.0" />
+      <point x="25.0" y="-14.5" />
+    </edge>
+    <edge source="Task_2.Controller.Animation" target="Task_2.Models.Racket">
+      <point x="7.105427357601002E-15" y="-14.5" />
+      <point x="102.27224702380954" y="148.0" />
+      <point x="93.125" y="148.0" />
+      <point x="93.125" y="59.0" />
+      <point x="145.0015625" y="59.0" />
+      <point x="-20.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.5" x="147.0" y="217.33333333333331" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: Task_2
+Main-Class: Task_2.PingPongMain
+
